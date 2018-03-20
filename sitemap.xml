@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://loben-illimited.github.io/about/</loc>
+    <loc>http://blog.illimited.cf/about/</loc>
     <lastmod>2018-03-19T23:53:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://loben-illimited.github.io/categories/</loc>
+    <loc>http://blog.illimited.cf/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://loben-illimited.github.io/tags/</loc>
+    <loc>http://blog.illimited.cf/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://loben-illimited.github.io/</loc>
+    <loc>http://blog.illimited.cf/</loc>
     <lastmod>2018-03-19T23:53:07+08:00</lastmod>
     <priority>0</priority>
   </url>
