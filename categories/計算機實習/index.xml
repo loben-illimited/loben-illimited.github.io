@@ -14,11 +14,13 @@
     
     <item>
       <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3</title>
-      <link>http://localhost:1313/post/ce1004-1062-a3/</link>
+      <link>http://localhost:1313/post/ce1004/ce1004-1062-a3/</link>
       <pubDate>Wed, 21 Mar 2018 19:06:38 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ce1004-1062-a3/</guid>
-      <description>CustomerBorrow.java package bank; public class CustomerBorrow extends Customer { private int borrowMoney; public CustomerBorrow(String name) { this.customer_name = name; } public void borrow(int borrowMoney) { if(borrowMoney &amp;lt;= money) { System.out.println(&amp;quot;You don&#39;t need to borrow money!!!&amp;quot;); }else { this.borrowMoney = borrowMoney; money += borrowMoney; show(); } } @Override public void show() { System.out.println(this.customer_name + &amp;quot; have &amp;quot; + this.money +&amp;quot; in the bank &amp;quot;); System.out.println(this.customer_name + &amp;quot; borrow &amp;quot; + this.</description>
+      <guid>http://localhost:1313/post/ce1004/ce1004-1062-a3/</guid>
+      <description>&lt;p&gt;CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
