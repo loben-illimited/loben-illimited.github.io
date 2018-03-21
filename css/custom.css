@@ -1,1 +1,9 @@
 /* your styles go here */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    font-family: 'Noto Sans TC';
+}
+
+body {
+    font-family: "raleway", Noto Sans TC;
+  }
