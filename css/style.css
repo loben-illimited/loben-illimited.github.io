@@ -70,7 +70,7 @@ body {
   font-size: 100%;
   margin: 0;
   padding: 0;
-  font-family: "raleway", sans-serif, Noto Sans TC;
+  font-family: "raleway", Noto Sans TC, sans-serif,;
   line-height: 1.5;
   color: #4d4d4d;
   background: #222;
