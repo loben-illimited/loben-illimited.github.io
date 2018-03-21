@@ -20,5 +20,14 @@
       <description>$$(3x+5/2x)$$</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://blog.illimited.cf/about/</link>
+      <pubDate>Tue, 20 Mar 2018 16:50:28 +0800</pubDate>
+      
+      <guid>https://blog.illimited.cf/about/</guid>
+      <description>本人現就讀中央資工一年級，而這個Blog是本人一時心癮起而使用Hugo及Github Page所架設的靜態網頁。</description>
+    </item>
+    
   </channel>
 </rss>

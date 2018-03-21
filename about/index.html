@@ -21,7 +21,6 @@
 <link rel="shortcut icon" href="https://blog.illimited.cf/img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="https://blog.illimited.cf/img/favicon.ico" type="image/x-icon">
 
-
 </head>
 
 
@@ -39,6 +38,10 @@
     <div class="menu">
 
       <ul id="menu-secondary-items" class="menu-secondary-items">
+        
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="/categories/git">Git</a>
+        </li>
         
 
       </ul>
@@ -132,12 +135,6 @@
         </li>
         
         
-        
-        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
-          <a href="/contact/">Get in touch</a>
-        </li>
-        
-        
       </ul>
 
 
@@ -159,7 +156,7 @@
 
 
 <div class="entry-meta">
-  <span class="date">March 19</span>	<span> / </span>
+  <span class="date">March 20</span>	<span> / </span>
 
   <span class="author">
     
@@ -178,7 +175,7 @@
 <div class="entry-container">
 <div class="entry-content">
   <article>
-  <p>一個讀資工的宅宅，每天都宅在宿舍。</p>
+  <p>本人現就讀中央資工一年級，而這個Blog是本人一時心癮起而使用<a href="https://gohugo.io/">Hugo</a>及<a href="https://pages.github.com/">Github Page</a>所架設的靜態網頁。</p>
 
           </article>
 </div>
@@ -188,6 +185,7 @@
 
 <div class="entry-categories"><p><span>Categories</span>
 
+  <a href="/categories/git" title="View all posts in Git">Git</a>
 </p>
 </div>
 
@@ -292,8 +290,6 @@ href="https://github.com/loben-illimited">
         
         <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="/about/">About</a></li>
         
-        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="/contact/">Get in touch</a></li>
-        
 </ul>
 
 </div>	</div>
@@ -349,7 +345,24 @@ href="https://github.com/loben-illimited">
 				</ul>	<div class="design-credit">
 		<p>
 			Nederburg Hugo Theme by <a target="_blank" href="https://appernetic.io">Appernetic</a>.</p><p>A port of Tracks by Compete Themes.</p>
-	</div>
+    </div>
+    <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+           extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    }
+  });
+  </script>
 </footer>
 
   </div>
