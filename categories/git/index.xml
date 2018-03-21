@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>傲遊網路</title>
-    <link>https://blog.illimited.cf/</link>
-    <description>Recent content on 傲遊網路</description>
+    <title>Git on 傲遊網路</title>
+    <link>https://blog.illimited.cf/categories/git/</link>
+    <description>Recent content in Git on 傲遊網路</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Tue, 20 Mar 2018 17:08:29 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.illimited.cf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.illimited.cf/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
