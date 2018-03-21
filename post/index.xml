@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Lo Ben</copyright>
-    <lastBuildDate>Wed, 21 Mar 2018 19:06:38 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Mar 2018 23:41:32 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MA1004-微積分 Calculus-H-1062</title>
+      <link>http://localhost:1313/post/ma1004/ma1004-calculus-1062/</link>
+      <pubDate>Wed, 21 Mar 2018 23:41:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/ma1004/ma1004-calculus-1062/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3</title>
