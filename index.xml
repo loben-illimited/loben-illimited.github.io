@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Lo Ben</copyright>
-    <lastBuildDate>Tue, 27 Mar 2018 20:43:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 23:54:11 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CE2010-數位系統實驗 Experiment of Digital Design-A-1062 A2</title>
+      <link>http://localhost:1313/post/ce2010/ce2010-1062-a2/</link>
+      <pubDate>Thu, 29 Mar 2018 23:54:11 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/ce2010/ce2010-1062-a2/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4</title>
