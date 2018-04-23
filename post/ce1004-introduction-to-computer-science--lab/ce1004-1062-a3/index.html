@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3 - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Lo Ben" />
+  <meta name="description" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3
+
+" />
+
+  <meta name="keywords" content="illimited, Lo Ben" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-a3/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+
+
+<meta property="og:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3" />
+<meta property="og:description" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-a3/" />
+
+
+
+<meta property="article:published_time" content="2018-03-21T19:06:38&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-03-21T19:06:38&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3">
+<meta itemprop="description" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3
+
+">
+
+
+<meta itemprop="datePublished" content="2018-03-21T19:06:38&#43;08:00" />
+<meta itemprop="dateModified" content="2018-03-21T19:06:38&#43;08:00" />
+<meta itemprop="wordCount" content="624">
+
+
+
+<meta itemprop="keywords" content="計算機實習,java,code,1062," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3"/>
+<meta name="twitter:description" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">illimited</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">illimited</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-03-21 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/"> 計算機實習 </a>
+            
+          </div>
+        <span class="more-meta"> 624 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#要求"><strong>要求:</strong></a></li>
+<li><a href="#code"><strong>code:</strong></a>
+<ul>
+<li><a href="#原來附上的code">原來附上的code:</a>
+<ul>
+<li><a href="#main-java">Main.java</a></li>
+<li><a href="#customer-java">Customer.java</a></li>
+</ul></li>
+<li><a href="#答案">答案:</a>
+<ul>
+<li><a href="#customerborrow-java">CustomerBorrow.java</a></li>
+<li><a href="#customertransfer-java">CustomerTransfer.java</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#解題思路">解題思路</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3</p>
+
+<p></p>
+
+<h2 id="要求"><strong>要求:</strong></h2>
+
+<iframe src="https://drive.google.com/file/d/1PysIRUOk96Dspt6d4jZQ0E7jiOjDU3hq/preview" width=100% height=800px></iframe>
+
+<h2 id="code"><strong>code:</strong></h2>
+
+<h3 id="原來附上的code">原來附上的code:</h3>
+
+<h4 id="main-java">Main.java</h4>
+
+<pre><code class="language-java">package bank;
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		Customer customer = null ;
+		
+		System.out.println(&quot;what mode customer?\n&quot;
+				+ &quot;1-general\n&quot;
+				+ &quot;2-can transfer\n&quot;
+				+ &quot;3-can borrow&quot;);
+		int customermode = input.nextInt();
+		
+		input = new Scanner(System.in);
+		System.out.println(&quot;what's your name?&quot;);
+		String a = input.nextLine();
+		
+		switch(customermode) {
+			case 1 :
+				customer = new Customer(a); 
+				break;
+			case 2:
+				customer= new CustomerTransfer(a);
+				break;
+			case 3:
+				customer = new CustomerBorrow(a);
+				break;
+		}
+		
+		customer.sayhi();
+		
+		int choose = 0 ;
+
+		while(choose!=-1) {	
+			customer.showlist();
+			choose = input.nextInt();
+			customer.choose(choose,customermode);	
+		}
+		
+		System.out.println(&quot;Thank's for using!&quot;);		
+	}
+}
+
+</code></pre>
+
+<h4 id="customer-java">Customer.java</h4>
+
+<pre><code class="language-java">package bank;
+
+import java.util.Scanner;
+
+public class Customer {
+	String customer_name ;
+	int money= 0  ;
+	Scanner input = new Scanner(System.in);
+	
+	public Customer() {
+		
+	}
+	
+	public Customer(String customer_name) {
+		this.customer_name = customer_name;
+	}
+	
+	public void savemoney(int money) {
+		this.money = this.money +  money;	
+		show();
+	}
+	
+	public void takemoney(int money) {
+		this.money = this.money -  money;	
+		show();
+	}
+	
+	public void show() {
+		System.out.println(this.customer_name + &quot; have &quot; + this.money +&quot; in the bank &quot;);
+	}
+	
+	public void showlist() {
+		System.out.println(&quot; what you want to do?\n&quot;
+				+ &quot;1-show the money\n&quot;
+				+ &quot;2-save the money\n&quot;
+				+ &quot;3-take the money\n&quot;
+				+ &quot;4-transfer the money\n&quot;
+				+ &quot;5-borrow the money\n&quot;
+				+ &quot;-1 to break&quot;);	
+	}
+	
+	public void choose(int number, int mode) {
+		if(number==1)
+			show();
+		else if(number==2) {
+			int dollors = input.nextInt();
+			savemoney(dollors);
+		}
+		else if(number==3) {
+			int dollors = input.nextInt();
+			takemoney(dollors);
+		}
+		else if (number&gt;3 &amp;&amp; mode == 1) {
+			error();
+		}
+		
+	}
+	
+	public void error() {
+		System.out.println(&quot;you don't have this method&quot;);
+	}
+
+	public void sayhi() {
+		System.out.print(&quot;Hi &quot; + customer_name);
+	}
+}
+</code></pre>
+
+<hr />
+
+<h3 id="答案">答案:</h3>
+
+<h4 id="customerborrow-java">CustomerBorrow.java</h4>
+
+<pre><code class="language-java">package bank;
+
+public class CustomerBorrow extends Customer {
+	private int borrowMoney;
+	public CustomerBorrow(String name) {
+		this.customer_name = name;
+	}
+	public void borrow(int borrowMoney) {
+		if(borrowMoney &lt;= money) {
+			System.out.println(&quot;You don't need to borrow money!!!&quot;);
+		}else {
+			this.borrowMoney = borrowMoney;
+			money += borrowMoney;
+			show();
+		}
+	}
+	@Override
+	public void show() {
+		System.out.println(this.customer_name + &quot; have &quot; + this.money +&quot; in the bank &quot;);
+		System.out.println(this.customer_name + &quot; borrow &quot; + this.borrowMoney + &quot;\n&quot;);
+	}
+	@Override
+	public void choose(int number, int mode) {
+		if(number==1)
+			show();
+		else if(number==2) {
+			int dollors = input.nextInt();
+			savemoney(dollors);
+		}
+		else if(number==3) {
+			int dollors = input.nextInt();
+			takemoney(dollors);
+		}
+		else if (number==5) {
+			int borrowMoney = input.nextInt();
+			borrow(borrowMoney);
+		}else {
+			error();
+		}
+	}
+}
+
+</code></pre>
+
+<h4 id="customertransfer-java">CustomerTransfer.java</h4>
+
+<pre><code class="language-java">package bank;
+
+public class CustomerTransfer extends Customer {
+	private int transferMoney;
+	public CustomerTransfer(String name) {
+		this.customer_name = name; //store name
+	}
+	public void transfer(int transferMoney) {
+		if (transferMoney &gt;= money) {
+			System.out.println(&quot;You don't have enough money!!!&quot;);
+		}else {
+			this.transferMoney = transferMoney;
+			money -= transferMoney;
+			show();
+		}
+	}
+	@Override
+	public void show() {
+		System.out.println(this.customer_name + &quot; have &quot; + this.money +&quot; in the bank &quot;);
+		System.out.println(this.customer_name + &quot; transfer &quot; + this.transferMoney + &quot;\n&quot;);
+	}
+	@Override
+	public void choose(int number, int mode) {
+		if(number==1)
+			show();
+		else if(number==2) {
+			int dollors = input.nextInt();
+			savemoney(dollors);
+		}
+		else if(number==3) {
+			int dollors = input.nextInt();
+			takemoney(dollors);
+		}
+		else if (number==4) {
+			int transferMoney = input.nextInt();
+			transfer(transferMoney);
+		}else {
+			error();
+		}
+		
+	}
+	
+}
+</code></pre>
+
+<h2 id="解題思路">解題思路</h2>
+
+<p>題目要求
+&gt;Please write two sub classes to fit the give java file.</p>
+
+<p>暗示了要利用inheritance的寫法，故有</p>
+
+<pre><code class="language-java">... extends ...
+</code></pre>
+
+<p>的寫法，換言之整份作業就是<code>extend</code>來<code>override</code>去的作品</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Lo Ben</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-03-21</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/">計算機實習</a>
+          
+          <a href="/tags/java/">java</a>
+          
+          <a href="/tags/code/">code</a>
+          
+          <a href="/tags/1062/">1062</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/ma1004-calculus/ma1004-calculus-1062/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">MA1004-微積分 Calculus-H-1062</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/git%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%84/">
+            <span class="next-text nav-default">Git學習記錄</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'illimited';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:loben@illimited.cf" class="iconfont icon-email" title="email"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Lo Ben</span>
+  </span>
+</div>
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['$$','$$']],
+  processEscapes: true,
+  processEnvironments: true,
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+       extensions: ["AMSmath.js", "AMSsymbols.js"] }
+}
+});
+MathJax.Hub.Queue(function() {
+  
+  
+  
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+
+MathJax.Hub.Config({
+
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['$$','$$']],
+  processEscapes: true,
+  processEnvironments: true,
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+       extensions: ["AMSmath.js", "AMSsymbols.js"] }
+}
+});
+MathJax.Hub.Queue(function() {
+  
+  
+  
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+
+MathJax.Hub.Config({
+
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-43662351-3', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Midterm on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/midterm/</link>
+    <description>Recent content in Midterm on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Lo Ben</copyright>
+    <lastBuildDate>Mon, 23 Apr 2018 21:35:01 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/midterm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CE1004 計算機實習 期中考</title>
+      <link>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/</link>
+      <pubDate>Mon, 23 Apr 2018 21:35:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;因為計概之前是在教&lt;code&gt;Java&lt;/code&gt;以及&lt;code&gt;oop&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;所以今次出了含有&lt;code&gt;oo&lt;/code&gt; concept 的題目&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

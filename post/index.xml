@@ -7,62 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Lo Ben</copyright>
-    <lastBuildDate>Sun, 01 Apr 2018 14:25:35 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Apr 2018 21:35:01 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CH02</title>
-      <link>http://localhost:1313/post/ce2008/ch02/</link>
+      <title>CE1004 計算機實習 期中考</title>
+      <link>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/</link>
+      <pubDate>Mon, 23 Apr 2018 21:35:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;因為計概之前是在教&lt;code&gt;Java&lt;/code&gt;以及&lt;code&gt;oop&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;所以今次出了含有&lt;code&gt;oo&lt;/code&gt; concept 的題目&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>數位系統導論CH02</title>
+      <link>http://localhost:1313/post/ce2008-digital-design/ch02/</link>
       <pubDate>Sun, 01 Apr 2018 14:25:35 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ce2008/ch02/</guid>
-      <description>PowerPoint 課本PowerPoint 課本詳盡解釋 個人注解 這次Chapter2的上課PowerPoint有3part 而且有很多沒有理解的東西 故篇幅會較大</description>
+      <guid>http://localhost:1313/post/ce2008-digital-design/ch02/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>數位系統導論CH01</title>
-      <link>http://localhost:1313/post/ce2008/ch01/</link>
+      <link>http://localhost:1313/post/ce2008-digital-design/ch01/</link>
       <pubDate>Sun, 01 Apr 2018 13:10:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ce2008/ch01/</guid>
-      <description>PowerPoint 課本PowerPoint 課本詳盡解釋 備注 這個章節大概說的是進制轉換 有提及數位的表示（利用$\sum$表示）P.15 以及2進制的加、減、乘、</description>
+      <guid>http://localhost:1313/post/ce2008-digital-design/ch01/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>CE2010-數位系統實驗 Experiment of Digital Design-A-1062 A2</title>
-      <link>http://localhost:1313/post/ce2010/cd2010-1062-a2/</link>
+      <link>http://localhost:1313/post/ce2010-experiment-of-digital-design/cd2010-1062-a2/</link>
       <pubDate>Thu, 29 Mar 2018 23:54:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ce2010/cd2010-1062-a2/</guid>
+      <guid>http://localhost:1313/post/ce2010-experiment-of-digital-design/cd2010-1062-a2/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4</title>
-      <link>http://localhost:1313/post/ce1004/ce1004-1062-a4/</link>
+      <link>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-a4/</link>
       <pubDate>Tue, 27 Mar 2018 20:43:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ce1004/ce1004-1062-a4/</guid>
+      <guid>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-a4/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MA1004-微積分 Calculus-H-1062</title>
-      <link>http://localhost:1313/post/ma1004/ma1004-calculus-1062/</link>
+      <link>http://localhost:1313/post/ma1004-calculus/ma1004-calculus-1062/</link>
       <pubDate>Wed, 21 Mar 2018 23:41:32 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ma1004/ma1004-calculus-1062/</guid>
+      <guid>http://localhost:1313/post/ma1004-calculus/ma1004-calculus-1062/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A3</title>
-      <link>http://localhost:1313/post/ce1004/ce1004-1062-a3/</link>
+      <link>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-a3/</link>
       <pubDate>Wed, 21 Mar 2018 19:06:38 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ce1004/ce1004-1062-a3/</guid>
+      <guid>http://localhost:1313/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-a3/</guid>
       <description>&lt;p&gt;CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 Assignment 3&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
