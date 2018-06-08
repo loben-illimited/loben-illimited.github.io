@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science Ⅱ Lab-A-1062 A6 - Even - A super concise theme for Hugo</title>
+  <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A6 - Even - A super concise theme for Hugo</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="Lo Ben" />
-  <meta name="description" content="一份有關 JavaFX 的作業
+  <meta name="description" content="這是一份有關 exception handling 的作業
 
 " />
 
@@ -51,8 +51,8 @@
 
 
 
-<meta property="og:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science Ⅱ Lab-A-1062 A6" />
-<meta property="og:description" content="一份有關 JavaFX 的作業
+<meta property="og:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A6" />
+<meta property="og:description" content="這是一份有關 exception handling 的作業
 
 " />
 <meta property="og:type" content="article" />
@@ -60,11 +60,9 @@
 
 
 
-<meta property="article:published_time" content="2018-05-04T02:13:50&#43;08:00"/>
+<meta property="article:published_time" content="2018-04-26T21:35:41&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-04T02:13:50&#43;08:00"/>
-
-
+<meta property="article:modified_time" content="2018-04-26T21:35:41&#43;08:00"/>
 
 
 
@@ -74,22 +72,24 @@
 
 
 
-<meta itemprop="name" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science Ⅱ Lab-A-1062 A6">
-<meta itemprop="description" content="一份有關 JavaFX 的作業
+
+
+<meta itemprop="name" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A6">
+<meta itemprop="description" content="這是一份有關 exception handling 的作業
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-04T02:13:50&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-04T02:13:50&#43;08:00" />
-<meta itemprop="wordCount" content="126">
+<meta itemprop="datePublished" content="2018-04-26T21:35:41&#43;08:00" />
+<meta itemprop="dateModified" content="2018-04-26T21:35:41&#43;08:00" />
+<meta itemprop="wordCount" content="231">
 
 
 
 <meta itemprop="keywords" content="計算機實習,java,code,1062," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science Ⅱ Lab-A-1062 A6"/>
-<meta name="twitter:description" content="一份有關 JavaFX 的作業
+<meta name="twitter:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A6"/>
+<meta name="twitter:description" content="這是一份有關 exception handling 的作業
 
 "/>
 
@@ -153,16 +153,16 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">CE1004-計算機實習 Ⅱ Introduction to Computer Science Ⅱ Lab-A-1062 A6</h1>
+      <h1 class="post-title">CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A6</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-05-04 </span>
+        <span class="post-time"> 2018-04-26 </span>
         <div class="post-category">
             
               <a href="/categories/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/"> 計算機實習 </a>
             
           </div>
-        <span class="more-meta"> 126 words </span>
+        <span class="more-meta"> 231 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -174,63 +174,65 @@
   <h2 class="post-toc-title">Contents</h2>
   
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-<ul>
-<li><a href="#要求">要求</a></li>
-<li><a href="#code">Code</a></li>
-</ul>
-</nav>
+    
   </div>
 </div>
 
     
     <div class="post-content">
-      <p>一份有關 <code>JavaFX</code> 的作業</p>
+      <p>這是一份有關 exception handling 的作業</p>
 
 <p></p>
 
-<h1 id="要求">要求</h1>
+<pre><code class="language-java">import java.util.InputMismatchException;
+import java.util.Scanner; //user input number
+import java.lang.Math; //for power calculate
 
-<iframe src="https://drive.google.com/file/d/1tKVcnPl_MHYiXf3QDkurqGroqGeRzFkM/preview" width="640" height="480"></iframe>
-
-<h1 id="code">Code</h1>
-
-<pre><code class="language-java">import javafx.application.Application;
-import javafx.event.EventHandler;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
-
-import javafx.scene.input.MouseEvent;
-
-import javafx.scene.paint.Color;
-
-public class Main extends Application{
-	private int i = 0;
-	@Override
-	public void start(Stage PrimaryStage) {
-		StackPane pane = new StackPane();
-		Button btn_change_color = new Button(&quot;change color&quot;);
-		btn_change_color.setOnMouseClicked(new EventHandler&lt;MouseEvent&gt;() {
-			Color[] colors = {Color.RED, Color.ORANGE, Color.YELLOW, Color.BLUE, Color.PURPLE}; //store color order
-            @Override
-            public void handle(MouseEvent event) {
-            	btn_change_color.setTextFill(colors[i]); //set button color
-            	i++; //change button color
-            	if(i &gt; colors.length - 1) { //make sure change color in the cycle
-            		i = 0;
-            	}
-            }
-        });
-		pane.getChildren().add(btn_change_color);
-		Scene scene = new Scene(pane, 300, 100); //set scene size
-		PrimaryStage.setTitle(&quot;color converter&quot;);
-		PrimaryStage.setScene(scene);
-		PrimaryStage.show();
+public class Main {
+	public static void main(String[] srgv) {
+		int x, y; //store base and exponent
+		Scanner input = new Scanner(System.in);
+		while (true) {
+			try {
+				System.out.println(&quot;please input X&quot;); //prompt input message
+				x = input.nextInt(); //store base
+				System.out.println(&quot;please input y&quot;); //prompt input message
+				y = input.nextInt(); //store exponent
+				Power(x, y); //use power method
+			}catch(InputMismatchException e) { //reference: https://stackoverflow.com/questions/24857070/try-catch-inside-while-loop
+				System.out.println(&quot;Error!it’s not integer\n&quot;);
+				input.next(); //clear scanner
+			}
+		}
 	}
-	public static void main(String[] args) {
-	    launch(args);
+	public static void Power(int base, int exponent) {
+		try{
+			if(base == 0 &amp;&amp; exponent == 0) {
+				throw new exception1();
+			}
+			if(exponent &lt; 0) {
+				throw new exception2(base, exponent);
+			}
+			int result = (int) Math.pow(base, exponent); 
+			System.out.println(&quot;the answer is: &quot; + result);
+		}catch(exception1|exception2 e) {
+			
+		}finally {
+			System.out.println(); //LF
+		}
+	}
+	
+}
+
+class exception1 extends Exception{
+	public exception1() {
+		System.out.println(&quot;Error! zero to the power of zero is not defined  0^0 is not integer&quot;); //hint
+	}
+}
+
+class exception2 extends Exception{
+	public exception2(int base, int exponent) {
+		System.out.println(&quot;Error!the exponent is negative value  &quot; + base + &quot;^&quot; + exponent + &quot; is not integer&quot;); //hint
 	}
 }
 </code></pre>
@@ -244,7 +246,7 @@ public class Main extends Application{
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-05-04</span>
+    <span class="item-content">2018-04-26</span>
   </p>
   
   
@@ -269,9 +271,14 @@ public class Main extends Application{
       
       <nav class="post-nav">
         
+          <a class="prev" href="/post/ma1202-calculus-project-using-python-/project/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">MA1202-微積分 python 實作 Ⅱ 報告</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
         
-          <a class="next" href="/post/reverse-engineering/reverse_introduction_to_computer_science_lab_assignment6/">
-            <span class="next-text nav-default">逆向計算機實習功課</span>
+          <a class="next" href="/post/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/">
+            <span class="next-text nav-default">CE1004 計算機實習 期中考</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
