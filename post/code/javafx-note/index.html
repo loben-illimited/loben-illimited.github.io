@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>自動選擇 NCU 教學評量 - Even - A super concise theme for Hugo</title>
+  <title>JavaFX 筆記 - Even - A super concise theme for Hugo</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,8 +17,8 @@
 
 
 <meta name="author" content="Lo Ben" />
-  <meta name="description" content="前言 因為 仆街 lms 需要做完整個教學評量才可以 初選
-所以才寫以下的code去自動選擇選項。
+  <meta name="description" content="JavaFX 能用來建立GUI，而這篇文章就是方便本人 copy and paste 而存在的。
+注意這文章沒有訴說原理，只適合查語法之用。
 
 " />
 
@@ -32,7 +32,7 @@
 <meta name="generator" content="Hugo 0.37.1" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/code/%E8%87%AA%E5%8B%95%E9%81%B8%E6%93%87-ncu-%E6%95%99%E5%AD%B8%E8%A9%95%E9%87%8F/" />
+<link rel="canonical" href="http://localhost:1313/post/code/javafx-note/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -52,26 +52,20 @@
 
 
 
-<meta property="og:title" content="自動選擇 NCU 教學評量" />
-<meta property="og:description" content="前言
+<meta property="og:title" content="JavaFX 筆記" />
+<meta property="og:description" content="JavaFX 能用來建立GUI，而這篇文章就是方便本人 copy and paste 而存在的。
 
-因為 仆街 lms 需要做完整個教學評量才可以 初選
-
-所以才寫以下的code去自動選擇選項。
+注意這文章沒有訴說原理，只適合查語法之用。
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/code/%E8%87%AA%E5%8B%95%E9%81%B8%E6%93%87-ncu-%E6%95%99%E5%AD%B8%E8%A9%95%E9%87%8F/" />
+<meta property="og:url" content="http://localhost:1313/post/code/javafx-note/" />
 
 
 
-<meta property="article:published_time" content="2018-06-08T23:53:18&#43;08:00"/>
+<meta property="article:published_time" content="2018-06-09T16:26:42&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-06-08T23:53:18&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-06-09T16:26:42&#43;08:00"/>
 
 
 
@@ -79,30 +73,30 @@
 
 
 
-<meta itemprop="name" content="自動選擇 NCU 教學評量">
-<meta itemprop="description" content="前言
 
-因為 仆街 lms 需要做完整個教學評量才可以 初選
 
-所以才寫以下的code去自動選擇選項。
+
+
+<meta itemprop="name" content="JavaFX 筆記">
+<meta itemprop="description" content="JavaFX 能用來建立GUI，而這篇文章就是方便本人 copy and paste 而存在的。
+
+注意這文章沒有訴說原理，只適合查語法之用。
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-06-08T23:53:18&#43;08:00" />
-<meta itemprop="dateModified" content="2018-06-08T23:53:18&#43;08:00" />
-<meta itemprop="wordCount" content="285">
+<meta itemprop="datePublished" content="2018-06-09T16:26:42&#43;08:00" />
+<meta itemprop="dateModified" content="2018-06-09T16:26:42&#43;08:00" />
+<meta itemprop="wordCount" content="462">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="Java,JavaFX," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="自動選擇 NCU 教學評量"/>
-<meta name="twitter:description" content="前言
+<meta name="twitter:title" content="JavaFX 筆記"/>
+<meta name="twitter:description" content="JavaFX 能用來建立GUI，而這篇文章就是方便本人 copy and paste 而存在的。
 
-因為 仆街 lms 需要做完整個教學評量才可以 初選
-
-所以才寫以下的code去自動選擇選項。
+注意這文章沒有訴說原理，只適合查語法之用。
 
 "/>
 
@@ -166,12 +160,16 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">自動選擇 NCU 教學評量</h1>
+      <h1 class="post-title">JavaFX 筆記</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-06-08 </span>
-        
-        <span class="more-meta"> 285 words </span>
+        <span class="post-time"> 2018-06-09 </span>
+        <div class="post-category">
+            
+              <a href="/categories/java/"> Java </a>
+            
+          </div>
+        <span class="more-meta"> 462 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -185,14 +183,21 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#前言">前言</a></li>
-<li><a href="#code">Code</a>
+<li><a href="#javafx基本">JavaFX基本</a>
 <ul>
-<li><a href="#自動選取選項-隨機地-不會自動submit">自動選取選項（隨機地）不會自動submit</a></li>
-<li><a href="#自動選取選項-隨機地-並且會自動submit">自動選取選項（隨機地）並且會自動submit</a></li>
-<li><a href="#自動選取所有問題第一個選項">自動選取所有問題第一個選項</a></li>
+<li><a href="#使用javafx">使用JavaFX</a></li>
+<li><a href="#例子-在windows中顯示一個button">例子：在Windows中顯示一個Button</a></li>
 </ul></li>
-<li><a href="#使用教學">使用教學</a></li>
+<li><a href="#觸發動作">觸發動作</a>
+<ul>
+<li><a href="#onclick">onclick</a>
+<ul>
+<li><a href="#onclick-demo-1">onclick demo 1</a></li>
+<li><a href="#onclick-demo-2">onclick demo 2</a></li>
+<li><a href="#onclick-demo-3-利用在-java8-之後新增的-lambda-expression-來寫">onclick demo 3 (利用在 <code>Java8</code> 之後新增的 <code>Lambda Expression</code> 來寫)</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#感想">感想</a></li>
 </ul>
 </nav>
   </div>
@@ -200,72 +205,129 @@
 
     
     <div class="post-content">
-      <h1 id="前言">前言</h1>
+      <p>JavaFX 能用來建立GUI，而這篇文章就是方便本人 <strong>copy and paste</strong> 而存在的。</p>
 
-<p>因為 <del>仆街</del> lms 需要做完整個教學評量才可以 <strong>初選</strong></p>
-
-<p>所以才寫以下的code去自動選擇選項。</p>
+<p>注意這文章沒有訴說原理，只適合查語法之用。</p>
 
 <p></p>
 
-<h1 id="code">Code</h1>
+<h1 id="javafx基本">JavaFX基本</h1>
 
-<h2 id="自動選取選項-隨機地-不會自動submit">自動選取選項（隨機地）不會自動submit</h2>
+<h2 id="使用javafx">使用JavaFX</h2>
 
-<pre><code class="language-javascript">questionNumber = 14; //問題總數
-for (var i = 1; i &lt;= questionNumber; i++){
-    opitionNumber = document.getElementsByName(&quot;editAnswer[&quot;+ i.toString() +&quot;][0]&quot;).length
-    selectionAnswer = parseInt(Math.random() * (opitionNumber) ); //隨機選擇選項
-    document.getElementsByName(&quot;editAnswer[&quot;+ i.toString() +&quot;][0]&quot;)[selectionAnswer].click()
+<pre><code class="language-java">import javafx.application.Application;
+
+public class Main extends Application {
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		//這裏用來描述interface
+	}
+    
+	public static void main(String[] args) {
+        Application.launch(args); //這段code建議新增，據說沒有加這段有部份
+    }
+}
+
+</code></pre>
+
+<p>這裏有一段很適合的comment解釋為何要加入<code>Application.launch(args);</code></p>
+
+<pre><code class="language-java">/**
+* The main method is only needed for the IDE with limited
+* JavaFX support. Not needed for running from the command line.
+*/
+</code></pre>
+
+<h2 id="例子-在windows中顯示一個button">例子：在Windows中顯示一個Button</h2>
+
+<pre><code class="language-java">import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Button test_btn = new Button(&quot;test button&quot;);
+		Scene scene = new Scene(test_btn, 200, 200);
+		primaryStage.setScene(scene);
+		primaryStage.show();
+	}
+	public static void main(String[] args) {
+        Application.launch(args);
+    }
 }
 </code></pre>
 
-<h2 id="自動選取選項-隨機地-並且會自動submit">自動選取選項（隨機地）並且會自動submit</h2>
+<p><img src="https://i.imgur.com/MA56Y0k.png" alt="在Windows中顯示一個Button" /></p>
 
-<pre><code class="language-javascript">questionNumber = 14; //問題總數
-for (var i = 1; i &lt;= questionNumber; i++){
-    document.getElementsByName(&quot;editAnswer[&quot;+ i.toString() +&quot;][0]&quot;)[0].click()
-}
-document.getElementsByName(&quot;submit&quot;)[0].click()
+<h1 id="觸發動作">觸發動作</h1>
+
+<h2 id="onclick">onclick</h2>
+
+<h3 id="onclick-demo-1">onclick demo 1</h3>
+
+<pre><code class="language-java">Button demo = new Button(&quot;demo&quot;);
+btn_change_color.setOnMouseClicked(new EventHandler&lt;MouseEvent&gt;() {
+    @Override
+    public void handle(MouseEvent event) {
+        //這裏寫在按下Button之後要執行的東西
+    }
+});
 </code></pre>
 
-<h2 id="自動選取所有問題第一個選項">自動選取所有問題第一個選項</h2>
+<h3 id="onclick-demo-2">onclick demo 2</h3>
 
-<p>即是選取 <strong>無缺課 、非常同意等</strong> 非常積極的用語。</p>
-
-<pre><code class="language-javascript">questionNumber = 14; //問題總數
-for (var i = 1; i &lt;= questionNumber; i++){
-    document.getElementsByName(&quot;editAnswer[&quot;+ i.toString() +&quot;][0]&quot;)[0].click()
+<pre><code class="language-java">//create 'OKHandlerClass' class
+class OKHandlerClass implements EventHandler&lt;ActionEvent&gt; {
+    @Override
+    public void handle(ActionEvent e) {
+      System.out.println(&quot;OK button clicked&quot;); 
+    }
 }
 </code></pre>
 
-<h1 id="使用教學">使用教學</h1>
+<pre><code class="language-java">Button btOK = new Button(&quot;OK&quot;);
+OKHandlerClass handler1 = new OKHandlerClass(); //create object
+btOK.setOnAction(handler1); //然後利用
+</code></pre>
 
-<ol>
-<li>在文章中複製需要的code</li>
-</ol>
+<h3 id="onclick-demo-3-利用在-java8-之後新增的-lambda-expression-來寫">onclick demo 3 (利用在 <code>Java8</code> 之後新增的 <code>Lambda Expression</code> 來寫)</h3>
 
-<p><img src="https://i.imgur.com/ozLLX0S.png" alt="在文章中複製需要的code" /></p>
+<pre><code class="language-java">import javafx.application.Application;
+import javafx.scene.control.Button;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-<ol>
-<li>然後開啟 <del>仆街</del> 教學評量頁面，並按下 <code>F12</code> ，打開主控台</li>
-</ol>
+public class Main extends Application {
+  @Override
+  public void start(Stage primaryStage) {
+	  Button demo = new Button(&quot;Demo&quot;);
+	  demo.setOnMouseClicked(e -&gt; {
+		  System.out.println(&quot;Mouse click demo button&quot;);
+	  }); //利用了lambda expression
+	  Scene scene = new Scene(demo, 400, 200);
+	  primaryStage.setScene(scene);
+	  primaryStage.setTitle(&quot;Demo lambda expression&quot;);
+	  primaryStage.show();
+  }
+  
+  
+  public static void main(String[] args) {
+    launch(args);
+  }
+}
+</code></pre>
 
-<p><img src="https://i.imgur.com/mleIt3H.png" alt="然後開啟 仆街 教學評量頁面，並按下 `F12`" /></p>
+<p><img src="https://i.imgur.com/98qKmX8.png" alt="img" /></p>
 
-<ol>
-<li>將複製的code貼上在主控台，再按下 <code>enter</code> 鍵</li>
-</ol>
+<p><img src="https://i.imgur.com/E0b4CRo.png" alt="img" /></p>
 
-<p><img src="https://i.imgur.com/UdJ86Lj.png" alt="將複製的code貼上在主控台，再按下 enter 鍵" /></p>
+<h1 id="感想">感想</h1>
 
-<ol>
-<li>執行完貼上的code，然後就能看到結果了</li>
-</ol>
-
-<p><img src="https://i.imgur.com/tk9AocQ.png" alt="執行完貼上的code" /></p>
-
-<p><img src="https://i.imgur.com/paGU6zT.png" alt="看到結果了" /></p>
+<p>寫 <code>JavaFX</code> 是一個抄code的過程。</p>
     </div>
 
     
@@ -276,7 +338,7 @@ for (var i = 1; i &lt;= questionNumber; i++){
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-06-08</span>
+    <span class="item-content">2018-06-09</span>
   </p>
   
   
@@ -286,19 +348,20 @@ for (var i = 1; i &lt;= questionNumber; i++){
     
 
     <footer class="post-footer">
-      
+      <div class="post-tags">
+          
+          <a href="/tags/java/">Java</a>
+          
+          <a href="/tags/javafx/">JavaFX</a>
+          
+        </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/code/javafx-note/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">JavaFX 筆記</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/post/ma1202-calculus-project-using-python-/project/">
-            <span class="next-text nav-default">MA1202-微積分 python 實作 Ⅱ 報告</span>
+          <a class="next" href="/post/code/%E8%87%AA%E5%8B%95%E9%81%B8%E6%93%87-ncu-%E6%95%99%E5%AD%B8%E8%A9%95%E9%87%8F/">
+            <span class="next-text nav-default">自動選擇 NCU 教學評量</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javafx on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/javafx/</link>
+    <description>Recent content in Javafx on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Lo Ben</copyright>
+    <lastBuildDate>Sat, 09 Jun 2018 16:26:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/javafx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaFX 筆記</title>
+      <link>http://localhost:1313/post/code/javafx-note/</link>
+      <pubDate>Sat, 09 Jun 2018 16:26:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/code/javafx-note/</guid>
+      <description>&lt;p&gt;JavaFX 能用來建立GUI，而這篇文章就是方便本人 &lt;strong&gt;copy and paste&lt;/strong&gt; 而存在的。&lt;/p&gt;
+
+&lt;p&gt;注意這文章沒有訴說原理，只適合查語法之用。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

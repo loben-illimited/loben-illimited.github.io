@@ -51,9 +51,18 @@
     <item>
       <title>Java</title>
       <link>http://localhost:1313/tags/java/</link>
-      <pubDate>Thu, 26 Apr 2018 21:35:41 +0800</pubDate>
+      <pubDate>Sat, 09 Jun 2018 16:26:42 +0800</pubDate>
       
       <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javafx</title>
+      <link>http://localhost:1313/tags/javafx/</link>
+      <pubDate>Sat, 09 Jun 2018 16:26:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/javafx/</guid>
       <description></description>
     </item>
     
