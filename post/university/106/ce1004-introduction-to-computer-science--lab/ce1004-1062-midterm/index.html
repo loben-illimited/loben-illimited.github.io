@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>CE1004 計算機實習 期中考 - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Lo Ben" />
+  <meta name="description" content="前言 因為計概之前是在教Java以及oop
+所以今次出了含有oo concept 的題目
+
+" />
+
+  <meta name="keywords" content="illimited, Lo Ben" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/university/106/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+
+
+<meta property="og:title" content="CE1004 計算機實習 期中考" />
+<meta property="og:description" content="前言
+
+因為計概之前是在教Java以及oop
+
+所以今次出了含有oo concept 的題目
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/university/106/ce1004-introduction-to-computer-science--lab/ce1004-1062-midterm/" />
+
+
+
+<meta property="article:published_time" content="2018-04-23T21:35:01&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-04-23T21:35:01&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="CE1004 計算機實習 期中考">
+<meta itemprop="description" content="前言
+
+因為計概之前是在教Java以及oop
+
+所以今次出了含有oo concept 的題目
+
+">
+
+
+<meta itemprop="datePublished" content="2018-04-23T21:35:01&#43;08:00" />
+<meta itemprop="dateModified" content="2018-04-23T21:35:01&#43;08:00" />
+<meta itemprop="wordCount" content="2079">
+
+
+
+<meta itemprop="keywords" content="計算機實習,Midterm," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CE1004 計算機實習 期中考"/>
+<meta name="twitter:description" content="前言
+
+因為計概之前是在教Java以及oop
+
+所以今次出了含有oo concept 的題目
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">illimited</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">illimited</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">CE1004 計算機實習 期中考</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-04-23 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/"> 計算機實習 </a>
+            
+          </div>
+        <span class="more-meta"> 2079 words </span>
+        <span class="more-meta"> 5 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#應考心得">應考心得</a></li>
+<li><a href="#題目一">題目一</a></li>
+<li><a href="#題目二">題目二</a></li>
+<li><a href="#題目三">題目三</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h1 id="前言">前言</h1>
+
+<p>因為計概之前是在教<code>Java</code>以及<code>oop</code></p>
+
+<p>所以今次出了含有<code>oo</code> concept 的題目</p>
+
+<p></p>
+
+<p>要求如下</p>
+
+<iframe src="https://drive.google.com/file/d/11J_Yk2YQAbkpvwtjxfR_rSoTikBpCgFE/preview" width="640" height="480"></iframe>
+
+<h1 id="應考心得">應考心得</h1>
+
+<p>份requirement是<strong>沒有太大用途</strong>，原因是那份<strong>doc</strong>是沒有明確指出這些<code>class</code>之間有甚麼關係。</p>
+
+<p>個人認為整份<code>doc</code>最重要的部份是<strong>例子截圖</strong>。</p>
+
+<p>其他的就請去讀懂<strong>main.java</strong>，否則你連傳入的<code>variable</code>究竟是<code>object</code>還是<code>primite type</code>。</p>
+
+<h1 id="題目一">題目一</h1>
+
+<p>第一題的大意就是建立五個<code>class</code>。</p>
+
+<p>而當中的<code>BlackTea.java</code>、<code>Milk.java</code>和<code>Pearl.java</code>理論上都是要<strong>extend</strong> <code>Material.java</code>。 （因為BlackTea、Milk和Pearl也是Material）</p>
+
+<p>而且<code>Material.java</code> class內有<strong>gram</strong> (見下)</p>
+
+<blockquote>
+<p>Material.java :</p>
+
+<p>gram: material content (double value)</p>
+
+<p>calorie: material heat (double value)</p>
+
+<p>Material(double): constructer, initialize gram</p>
+
+<p>calculateCalorie(): no need to do something</p>
+</blockquote>
+
+<p>而這個<strong>gram</strong>理應為<code>BlackTea.java</code>、<code>Milk.java</code>和<code>Pearl.java</code>共同具備的特性（但題目並沒有具題說明） （見下）</p>
+
+<hr />
+
+<blockquote>
+<p>BlackTea.java</p>
+
+<p>BlackTea(double): constructer, initialize gram, and print the message “add black tea”</p>
+
+<p>calculateCalorie(): calculate calories of black tea, formula is <strong><em>0.1</em></strong>*gram</p>
+</blockquote>
+
+<hr />
+
+<blockquote>
+<p>Milk.java</p>
+
+<p>Milk(double): constructer, initialize gram, and print the message “add milk”</p>
+
+<p>calculateCalorie(): calculate calories of milk, formula is <strong><em>4.5</em></strong>*gram</p>
+</blockquote>
+
+<hr />
+
+<blockquote>
+<p>Pearl.java</p>
+
+<p>Pearl(double): constructer, initialize gram, and print the message “add pearl”</p>
+
+<p>calculateCalorie(): calculate calories of pearl, formula is <strong><em>5</em></strong>*gram</p>
+</blockquote>
+
+<hr />
+
+<p>而請注意<code>Material.java</code> class裏面其實還有一個variable <code>calorie</code> 是還未使用，而這個<code>calorie</code>其實就是用來儲存上方 <strong><em>粗斜體</em></strong> 的value（又是不說明的東西）</p>
+
+<p><del>所以這是用來伏學生的嗎？</del></p>
+
+<p><code>Main.java</code></p>
+
+<pre><code class="language-java">public class Main {
+
+	public static void main(String[] args) {
+		Material list[] = {new Pearl(25), new Milk(300), new BlackTea(400)};
+		Drink pearlMilkTea = new Drink(&quot;pearl milk tea&quot;);
+		for(int i=0; i&lt;list.length; i++) {
+			pearlMilkTea.addMaterial(list[i]);
+		}
+		pearlMilkTea.calculateTotalCalorie();
+		
+		Material list2[] = {new Milk(100), new BlackTea(500), new Milk(100)};
+		Drink milkTea = new Drink(&quot;milk tea&quot;);
+		for(int i=0; i&lt;list2.length; i++) {
+			milkTea.addMaterial(list2[i]);
+		}
+		milkTea.calculateTotalCalorie();
+
+	}
+
+}
+</code></pre>
+
+<p>而<code>Drink.java</code>個人認為應該要知道甚麼是<code>static</code>方可完成</p>
+
+<p>從上方<code>Main.java</code>可見<strong>line 4 and line 11</strong>所儲存的是<strong>extends</strong>於<code>Material.java</code>的object的array</p>
+
+<p>而<strong>line 6 to 8 and line 13 to 15</strong>則是將array裏每一個object pass給<code>Drink</code>這個object。</p>
+
+<p>個人認為這樣有兩個做法，但都要用到<code>static</code> <del>但因為本人過於懶，所以只想說自己的做法</del></p>
+
+<p><code>Drink.java</code></p>
+
+<pre><code class="language-java">public class Drink {
+	static double sum = 0;
+	String name;
+	Material content;
+	public Drink(String name) {
+		this.name = name;
+	}
+	public void addMaterial(Material thing) {
+		this.content = thing;
+		this.sum += thing.calculateCalorie();
+	}
+	public void calculateTotalCalorie(){
+		System.out.println(this.name + &quot; heat is &quot; + this.sum + &quot; kcal&quot;);
+		this.sum = 0;
+	}
+}
+</code></pre>
+
+<p>本人用<code>sum</code>將pass進來的object的<strong>Calorie</strong>先全部加總，然後在所謂的<code>calculateTotalCalorie()</code>把<code>sum</code> print 出來</p>
+
+<p>但因為本人在<code>sum</code> 用了<code>static</code>，即是當我不用<code>Drink</code>這個object時，這個<code>sum</code>的variable還是存在（儲存上一次修改的狀態），所以我在<code>Drink.java</code>的<strong>line 14</strong>將<code>this.sum</code> <strong>set 為 0</strong></p>
+
+<p>而其他的<code>class</code>如下:</p>
+
+<p><code>BlackTea.java</code></p>
+
+<pre><code class="language-java">public class BlackTea extends Material{
+	public BlackTea(double value) {
+		super(value);
+		this.calorie = 0.1;
+		System.out.println(&quot;add black tea&quot;);
+	}
+	@Override
+	public double calculateCalorie() {
+		return this.calorie * this.gram;
+	}
+	
+}
+</code></pre>
+
+<hr />
+
+<p><code>Milk.java</code></p>
+
+<pre><code class="language-java">public class Milk extends Material {
+	public Milk(double value) {
+		super(value);
+		this.calorie = 4.5;
+		System.out.println(&quot;add milk&quot;);
+	}
+	@Override
+	public double calculateCalorie() {
+		return this.calorie * this.gram;
+	}
+}
+</code></pre>
+
+<hr />
+
+<p><code>Pearl.java</code></p>
+
+<pre><code class="language-java">public class Pearl extends Material{
+	public Pearl(double value) {
+		super(value);
+		this.calorie = 5;
+		System.out.println(&quot;add pearl&quot;);
+	}
+	@Override
+	public double calculateCalorie() {
+		return this.calorie * this.gram;
+	}
+}
+</code></pre>
+
+<hr />
+
+<p><code>Material.java</code></p>
+
+<pre><code class="language-java">public class Material {
+	double gram;
+	double calorie;
+	public Material(double value) {
+		this.gram = value;
+	}
+	public double calculateCalorie() {
+		return 0;
+	}
+}
+</code></pre>
+
+<h1 id="題目二">題目二</h1>
+
+<p>而題目二則只要看懂example即可</p>
+
+<p><code>Main.java</code></p>
+
+<pre><code class="language-java">import java.util.*;
+import java.util.concurrent.TimeUnit;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Pikachu player1 = new Pikachu(&quot;Pikachu&quot;);
+		Raichu player2 = new Raichu(&quot;Raichu&quot;);
+		System.out.println(&quot;Pikachu and Raichu were born!!!&quot;);
+		int player1Dice;
+		int player2Dice;
+
+		// fight
+		while (player1.HP &gt; 0 &amp;&amp; player2.HP &gt; 0) {
+			for (int i = 1; i &lt; 3; i++) {
+				player1Dice = player1.rollDice();
+				player2Dice = player2.rollDice();
+				Random ran = new Random();
+				int diceNumber = ran.nextInt(4) + 1; // random the 1~6 number
+				if (player1Dice &gt; player2Dice) {
+					if (i == 1) {
+						player1.skills(diceNumber);
+						player2.attacked(player1.attack * player1.skill * diceNumber);
+					} else {
+						player1.attackSuccess();
+						player2.attacked(player1.attack);
+					}
+				}
+
+				else if (player1Dice &lt; player2Dice) {
+					if (i == 2) {
+						player2.skills(diceNumber);
+						if(diceNumber!=2)
+						player1.attacked(player2.attack * player2.skill * diceNumber);
+					} else {
+						player2.attackSuccess();
+						player1.attacked(player2.attack);
+					}
+				}
+				try {
+					TimeUnit.MILLISECONDS .sleep(50);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+		// print the result
+		if (player1.HP &lt;= 0)
+			System.out.println(player2.name + &quot; win.&quot;);
+		else if (player2.HP &lt;= 0)
+			System.out.println(player1.name + &quot; win.&quot;);
+		else
+			System.out.println(&quot;Draw.&quot;);
+	}
+
+}
+</code></pre>
+
+<hr />
+
+<p><code>Pokemons.java</code></p>
+
+<pre><code class="language-java">import java.util.Scanner;
+import java.util.Random; //import for random 
+
+public class Pokemons {
+
+	int HP;
+	int diceNumber;
+	int attack;
+	String name;
+	int skill;
+
+	public Pokemons(String name) {
+		this.name = name;
+	}
+
+	public int rollDice() {
+		//finish your code here
+		Random rand = new Random();
+		return 1 + rand.nextInt(6);
+	}
+
+	public void attackSuccess() {
+		//finish your code here
+		System.out.println(&quot;Pikachu/Raichu attack Successd, &quot;);
+	}
+
+	public void attacked(int attackNumber) {
+		//finish your code here
+		this.HP -= attackNumber;
+		System.out.println(&quot;Pikachu/Raichu is attacked and HP is &quot; + this.HP);
+	}
+
+	public void skills(int ran) {
+		//finish your code here
+		System.out.println(&quot; Pikachu/Raichu uses &quot;);
+	}
+	
+	public int getSkill() {
+		return skill;
+	}
+
+	public void setSkill(int skill) {
+		this.skill = skill;
+	}
+	public int getHP() {
+		return HP;
+	}
+
+	public void setHP(int hP) {
+		HP = hP;
+	}
+
+	public int getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}
+</code></pre>
+
+<hr />
+
+<p><code>Pikachu.java</code></p>
+
+<pre><code class="language-java">public class Pikachu extends Pokemons {
+
+	public Pikachu(String name) {
+		super(name);
+		this.HP = 80;
+		this.attack = 3;
+		this.skill = 2;
+		// TODO Auto-generated constructor stub
+	}
+
+	public void skills(int diceNumber) {
+		// finish your code here
+		int attackNum = this.attack * this.skill * diceNumber;
+		String _num = String.valueOf(attackNum);
+		String[] skills = {&quot;Double slap&quot;, &quot;Iron Tail&quot;, &quot;Volt Tackle&quot;, &quot;Electric shock&quot;};
+		System.out.println(&quot;Pikachu uses &lt;&quot; + skills[diceNumber - 1] + &quot;&gt; to attack, the attack number is &quot; + _num);
+	}
+	@Override
+	public void attackSuccess() {
+		//finish your code here
+		System.out.print(&quot;Pikachu attack Successd, &quot;);
+	}
+	@Override
+	public void attacked(int attackNumber) {
+		//finish your code here
+		this.HP -= attackNumber;
+		System.out.println(&quot;Pikachu is attacked and HP is &quot; + this.HP + &quot;\n&quot;);
+	}
+}
+</code></pre>
+
+<hr />
+
+<p><code>Raichu.java</code></p>
+
+<pre><code class="language-java">public class Raichu extends Pokemons {
+
+	public Raichu(String name) {
+		super(name);
+		this.HP = 100;
+		this.attack = 4;
+		this.skill = 3;
+		// TODO Auto-generated constructor stub
+	}
+
+	public void skills(int diceNumber) {
+		// finish your code here
+		int attackNum = this.attack * this.skill * diceNumber;
+		String _num = String.valueOf(attackNum);
+		String[] skills = {&quot;Quic Attack&quot;, &quot;Growl&quot;, &quot;Thunder&quot;, &quot;Thunderbolt&quot;};
+		System.out.println(&quot;Raichu uses &lt;&quot; + skills[diceNumber - 1] + &quot;&gt; to attack, the attack number is &quot; + _num);
+	}
+	@Override
+	public void attackSuccess() {
+		//finish your code here
+		System.out.print(&quot;Raichu attack Successd, &quot;);
+	}
+	@Override
+	public void attacked(int attackNumber) {
+		//finish your code here
+		this.HP -= attackNumber;
+		System.out.println(&quot;Raichu is attacked and HP is &quot; + this.HP + &quot;\n&quot;);
+	}
+}
+</code></pre>
+
+<h1 id="題目三">題目三</h1>
+
+<p><code>Main.java</code></p>
+
+<pre><code class="language-java">import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);		
+		int animal = (int)(Math.random()*3)+1; //random 1 ~ 3 to choose animal
+		boolean animal_hungry = true; 		   // check if the animal's satiety &gt;= 100 
+		int animal_satiety = 0; 				   // animal's satiety
+		
+		Zoo z = null;
+		
+		// call the animal class
+		switch(animal) {
+			case 1: 
+				//code here
+				z = new Tiger();
+				animal_satiety = z.satiety();
+				break;
+			case 2:
+				//code here
+				z = new Monkey();
+				animal_satiety = z.satiety();
+				break;
+			case 3:
+				//code here
+				z = new Penguin();
+				animal_satiety = z.satiety();
+				break;			
+			default:
+				break;
+		}
+		 
+		System.out.println(z.name() + &quot; is hungry(&quot; + animal_satiety + &quot;%)&quot;);
+		System.out.println(z.name() + &quot; want to eat &quot; + z.food() + &quot;\n\n&quot;);
+		// feed the animal
+		while(animal_hungry) { 
+			//code here
+			System.out.println(&quot;Please enter f to feed &quot; + z.name());
+			Scanner input = new Scanner(System.in);
+			if (input.nextLine().equals(&quot;f&quot;)) {
+				Random rand = new Random();
+				animal_satiety += 5 + rand.nextInt(6);
+			}
+			if (animal_satiety &lt; 100) {
+				System.out.println(z.name() + &quot; still hungry(&quot; + animal_satiety + &quot;%) \n\n&quot;);
+			}else {
+				System.out.println(z.name() + &quot; is happy!!&quot;);
+				animal_hungry = false;
+			}
+		}
+				
+	}
+		 
+		 
+}
+</code></pre>
+
+<hr />
+
+<p><code>Zoo.java</code></p>
+
+<pre><code class="language-java">import java.util.*;
+
+public interface Zoo {
+	//code here
+	public int satiety();
+	public String food();
+	public String name();
+}
+
+class Tiger implements Zoo{
+	//code here
+	public int satiety() {
+		Random rand = new Random();
+		return 50 + rand.nextInt(31);
+	}
+	public String food() {
+		return &quot;meat&quot;;
+	}
+	public String name() {
+		return &quot;Tiger&quot;;
+	}
+}
+
+class Monkey implements Zoo{
+	//code here
+	public int satiety() {
+		Random rand = new Random();
+		return 50 + rand.nextInt(31);
+	}
+	public String food() {
+		return &quot;banana&quot;;
+	}
+	public String name() {
+		return &quot;Monkey&quot;;
+	}
+}
+
+class Penguin implements Zoo{
+	//code here
+	public int satiety() {
+		Random rand = new Random();
+		return 50 + rand.nextInt(31);
+	}
+	public String food() {
+		return &quot;Fish&quot;;
+	}
+	public String name() {
+		return &quot;Penguin&quot;;
+	}
+}
+</code></pre>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Lo Ben</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-04-23</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/">計算機實習</a>
+          
+          <a href="/tags/midterm/">Midterm</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/university/106/ce1004-introduction-to-computer-science--lab/ce1004-1062-a6/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A6</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/university/106/ce2008-digital-design/ch02/">
+            <span class="next-text nav-default">數位系統導論CH02</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'illimited';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:loben@illimited.cf" class="iconfont icon-email" title="email"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Lo Ben</span>
+  </span>
+</div>
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['$$','$$']],
+  processEscapes: true,
+  processEnvironments: true,
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+       extensions: ["AMSmath.js", "AMSsymbols.js"] }
+}
+});
+MathJax.Hub.Queue(function() {
+  
+  
+  
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+
+MathJax.Hub.Config({
+
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['$$','$$']],
+  processEscapes: true,
+  processEnvironments: true,
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+       extensions: ["AMSmath.js", "AMSsymbols.js"] }
+}
+});
+MathJax.Hub.Queue(function() {
+  
+  
+  
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+
+MathJax.Hub.Config({
+
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-43662351-3', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

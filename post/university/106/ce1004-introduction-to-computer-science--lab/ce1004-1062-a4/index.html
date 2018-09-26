@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4 - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Lo Ben" />
+  <meta name="description" content="
+" />
+
+  <meta name="keywords" content="illimited, Lo Ben" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/university/106/ce1004-introduction-to-computer-science--lab/ce1004-1062-a4/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+
+
+<meta property="og:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/university/106/ce1004-introduction-to-computer-science--lab/ce1004-1062-a4/" />
+
+
+
+<meta property="article:published_time" content="2018-03-27T20:43:30&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-03-27T20:43:30&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4">
+<meta itemprop="description" content="">
+
+
+<meta itemprop="datePublished" content="2018-03-27T20:43:30&#43;08:00" />
+<meta itemprop="dateModified" content="2018-03-27T20:43:30&#43;08:00" />
+<meta itemprop="wordCount" content="508">
+
+
+
+<meta itemprop="keywords" content="計算機實習,java,code,1062," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4"/>
+<meta name="twitter:description" content=""/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">illimited</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">illimited</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">CE1004-計算機實習 Ⅱ Introduction to Computer Science ⅡLab-A-1062 A4</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-03-27 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/"> 計算機實習 </a>
+            
+          </div>
+        <span class="more-meta"> 508 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#要求">要求</a></li>
+<li><a href="#code">code</a>
+<ul>
+<li><a href="#原來的code">原來的code</a>
+<ul>
+<li><a href="#main-java">Main.java</a></li>
+</ul></li>
+<li><a href="#自己寫的code">自己寫的code</a>
+<ul>
+<li><a href="#profession-java">Profession.java</a></li>
+<li><a href="#warrior-java">Warrior.java</a></li>
+<li><a href="#magician-java">Magician.java</a></li>
+<li><a href="#archer-java">Archer.java</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#解題思路">解題思路</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p></p>
+
+<h2 id="要求">要求</h2>
+
+<iframe src="https://drive.google.com/file/d/1bbEHct5purZI2Dir_vCnYplWOMTfyc8H/preview" width="640" height="480"></iframe>
+
+<h2 id="code">code</h2>
+
+<h3 id="原來的code">原來的code</h3>
+
+<h4 id="main-java">Main.java</h4>
+
+<pre><code class="language-java">import java.util.*;
+
+class Beginner{
+	private int STR=1,DEX=1,INT=1,HP=50,MP=50,LV=1;
+	void use_skill(Profession p) {
+		System.out.println(p.skill());
+	}
+	void showAP(Profession p) {
+		System.out.println(&quot;----&quot;+p.getProfession()+&quot; LV.&quot;+LV+&quot;----&quot;);
+		System.out.println(&quot;HP : &quot;+HP);
+		System.out.println(&quot;MP : &quot;+MP);
+		System.out.println(&quot;STR : &quot;+STR);
+		System.out.println(&quot;DEX : &quot;+DEX);
+		System.out.println(&quot;INT : &quot;+INT);
+	}
+	void levelup(Profession p) {		
+		LV++;
+		System.out.println(&quot;Level Up! LV.&quot;+LV+&quot; Congratulations !&quot;);
+		HP+=p.upgradeHP();
+		MP+=p.upgradeMP();
+		STR+=p.upgradeSTR();
+		DEX+=p.upgradeDEX();
+		INT+=p.upgradeINT();
+	}
+}
+
+public class Main{
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println(&quot;Hello Beginner ! Please choose your Profession.&quot;);
+		System.out.println(&quot;(1) Warrior&quot;);
+		System.out.println(&quot;(2) Magician&quot;);
+		System.out.println(&quot;(3) Archer&quot;);
+		int choice=sc.nextInt();
+		
+		Beginner person = new Beginner();
+		Profession profession=null;
+		
+		switch(choice) {
+			case 1:
+				profession = new Warrior();
+				break;
+			case 2:
+				profession = new Magician();
+				break;
+			case 3:
+				profession = new Archer();
+				break;
+			default:
+				break;
+		}
+		
+		while(choice&gt;=1&amp;&amp;choice&lt;=3){
+			System.out.println(&quot;\n\n\nWhat do you want to do?&quot;);
+			System.out.println(&quot;(1) Level Up!&quot;);
+			System.out.println(&quot;(2) Use skill.&quot;);
+			System.out.println(&quot;(3) Show my ability point.&quot;);
+			System.out.println(&quot;(4) Exit.&quot;);
+			int select=sc.nextInt();
+			
+			if(select==4)
+				break;
+			
+			switch(select) {
+				case 1:
+					person.levelup(profession);
+					break;
+				case 2:
+					person.use_skill(profession);
+					break;
+				case 3:
+					person.showAP(profession);
+					break;
+				default:
+					break;
+			}
+			
+			
+		}
+	}
+	
+}
+
+
+</code></pre>
+
+<h3 id="自己寫的code">自己寫的code</h3>
+
+<h4 id="profession-java">Profession.java</h4>
+
+<blockquote>
+<p>Profession 是一個 interface</p>
+</blockquote>
+
+<pre><code class="language-java">
+public interface Profession {
+	String skill(); //return the Profession’s skill 
+	String getProfession(); //return the profession name.
+	int upgradeHP(); //return HP (health point) value when level up.
+	int upgradeMP(); //return MP (magic point) value when level up.
+	int upgradeSTR(); //return STR (strength) value when level up.
+	int upgradeDEX(); //return DEX (dexterity) value when level up.
+	int upgradeINT(); //return INT (intelligence) value when level up.
+}
+
+</code></pre>
+
+<h4 id="warrior-java">Warrior.java</h4>
+
+<pre><code class="language-java">
+public class Warrior implements Profession {
+	String skill_name = &quot;Glacial Hammer !!!&quot;, profession_name = &quot;Warrior&quot;;
+	int _hp = 100, _mp = 30, _str = 5, _dex = 3, _int = 1;
+	public String skill() {
+		return skill_name;
+	}
+	public String getProfession() {
+		return profession_name;
+	}
+	public int upgradeHP() {
+		return _hp;
+	}
+	public int upgradeMP() {
+		return _mp;
+	}
+	public int upgradeSTR() {
+		return _str;
+	}
+	public int upgradeDEX() {
+		return _dex;
+	}
+	public int upgradeINT() {
+		return _int;
+	}
+}
+
+</code></pre>
+
+<h4 id="magician-java">Magician.java</h4>
+
+<pre><code class="language-java">
+public class Magician implements Profession{
+	String skill_name = &quot;Firestorm !!!&quot;, profession_name = &quot;Magician&quot;;
+	int _hp = 30, _mp = 100, _str = 1, _dex = 3, _int = 5;
+	public String skill() {
+		return skill_name;
+	}
+	public String getProfession() {
+		return profession_name;
+	}
+	public int upgradeHP() {
+		return _hp;
+	}
+	public int upgradeMP() {
+		return _mp;
+	}
+	public int upgradeSTR() {
+		return _str;
+	}
+	public int upgradeDEX() {
+		return _dex;
+	}
+	public int upgradeINT() {
+		return _int;
+	}
+}
+
+</code></pre>
+
+<h4 id="archer-java">Archer.java</h4>
+
+<pre><code class="language-java">
+public class Archer implements Profession{
+	String skill_name = &quot;Rain of Arrows !!!&quot;, profession_name = &quot;Archer&quot;;
+	int _hp = 80, _mp = 50, _str = 3, _dex = 5, _int = 1;
+	public String skill() {
+		return skill_name;
+	}
+	public String getProfession() {
+		return profession_name;
+	}
+	public int upgradeHP() {
+		return _hp;
+	}
+	public int upgradeMP() {
+		return _mp;
+	}
+	public int upgradeSTR() {
+		return _str;
+	}
+	public int upgradeDEX() {
+		return _dex;
+	}
+	public int upgradeINT() {
+		return _int;
+	}
+}
+
+</code></pre>
+
+<h2 id="解題思路">解題思路</h2>
+
+<p><code>interface</code> &hellip;</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Lo Ben</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-03-27</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/">計算機實習</a>
+          
+          <a href="/tags/java/">java</a>
+          
+          <a href="/tags/code/">code</a>
+          
+          <a href="/tags/1062/">1062</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/university/106/ce2010-experiment-of-digital-design/cd2010-1062-a2/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">CE2010-數位系統實驗 Experiment of Digital Design-A-1062 A2</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/university/106/ma1004-calculus/ma1004-calculus-1062/">
+            <span class="next-text nav-default">MA1004-微積分 Calculus-H-1062</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'illimited';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:loben@illimited.cf" class="iconfont icon-email" title="email"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Lo Ben</span>
+  </span>
+</div>
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['$$','$$']],
+  processEscapes: true,
+  processEnvironments: true,
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+       extensions: ["AMSmath.js", "AMSsymbols.js"] }
+}
+});
+MathJax.Hub.Queue(function() {
+  
+  
+  
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+
+MathJax.Hub.Config({
+
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  displayMath: [['$$','$$']],
+  processEscapes: true,
+  processEnvironments: true,
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+       extensions: ["AMSmath.js", "AMSsymbols.js"] }
+}
+});
+MathJax.Hub.Queue(function() {
+  
+  
+  
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+
+MathJax.Hub.Config({
+
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-43662351-3', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

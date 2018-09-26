@@ -49,6 +49,15 @@
     </item>
     
     <item>
+      <title>Handout</title>
+      <link>http://localhost:1313/tags/handout/</link>
+      <pubDate>Wed, 26 Sep 2018 12:44:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/handout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Java</title>
       <link>http://localhost:1313/tags/java/</link>
       <pubDate>Sat, 09 Jun 2018 16:26:42 +0800</pubDate>
@@ -63,6 +72,15 @@
       <pubDate>Sat, 09 Jun 2018 16:26:42 +0800</pubDate>
       
       <guid>http://localhost:1313/tags/javafx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linear Algebra</title>
+      <link>http://localhost:1313/tags/linear-algebra/</link>
+      <pubDate>Wed, 26 Sep 2018 12:44:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/linear-algebra/</guid>
       <description></description>
     </item>
     
@@ -94,11 +112,29 @@
     </item>
     
     <item>
+      <title>線性代數</title>
+      <link>http://localhost:1313/tags/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/</link>
+      <pubDate>Wed, 26 Sep 2018 12:44:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>計算機實習</title>
       <link>http://localhost:1313/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/</link>
       <pubDate>Thu, 26 Apr 2018 21:35:41 +0800</pubDate>
       
       <guid>http://localhost:1313/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E5%AF%A6%E7%BF%92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>講義</title>
+      <link>http://localhost:1313/tags/%E8%AC%9B%E7%BE%A9/</link>
+      <pubDate>Wed, 26 Sep 2018 12:44:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E8%AC%9B%E7%BE%A9/</guid>
       <description></description>
     </item>
     
